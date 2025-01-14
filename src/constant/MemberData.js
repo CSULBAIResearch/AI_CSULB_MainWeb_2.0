@@ -7,6 +7,7 @@ import publicRelation_img from "../assets/officerImg/Jose.png"
 import EventCordinate_img from "../assets/officerImg/Joshua_Nwabuzor.jpg"
 import Treasure from "../assets/officerImg/Shrawak.png"
 import VicePresident from "../assets/officerImg/Shaun_Lim.jpg"
+import Webmaster from "../assets/officerImg/MyLu.jpeg"
 
 import FacultyAd_1 from "../assets/image/advisorImg/Ava_Hedayatipour.jpg"
 import FacultyAd_2 from "../assets/image/advisorImg/Debra.jpeg"
@@ -70,6 +71,16 @@ const Current_Member = [
         Linkedin:"https://www.linkedin.com/in/shrawak-shakya-a69922185/",
         GitHub:"https://github.com/Kharacha",
         Email:"shrawak@gmail.com"
+    },
+
+    {
+        Membername:"My Lu",
+        position:"Web Master",
+        MemberImg :Webmaster,
+        
+        Linkedin:"https://www.linkedin.com/in/my-lu/",
+        GitHub:"https://github.com/MyLu004",
+        Email:"my.lu01@student.csulb.edu"
     },
 ]
 

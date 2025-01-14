@@ -18,6 +18,12 @@ const App = () => {
   <div>
     <Navbar/>
     <HomePage/>
+    <MissionPage/>
+    <OfficerPage/>
+
+    <ContactPage/>
+
+    
     {/* <AdvisorPage/>
     <ContactPage/>
     <HomePage/>

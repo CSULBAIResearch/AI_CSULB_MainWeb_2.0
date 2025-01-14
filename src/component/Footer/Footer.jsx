@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaGithub, FaLinkedinIn, FaYoutubeSquare, FaInstagram   } from "react-icons/fa";
-import { Club_logo } from "../../constant";
+import {images} from "../../constant/index"
 
 import "./Footer.css"
 
@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="club__footer-container section__padding" id="team">
         <div className="club__footer-content">
             <div className="club__footer-name">
-                <img src={Club_logo} width={60} alt="clubLogo" />
+                <img src={images.Club_logo} width={100} alt="clubLogo" />
                 <h1>AI CSULB</h1>
             </div>
 
@@ -24,20 +24,20 @@ const Footer = () => (
             <div className="club__footer-links">
 
                 <a href="https://www.instagram.com/csulb_ai_research/" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram color="#fff" fontSize={40} cursor={"pointer"}/>
+                    <FaInstagram color="#fff" fontSize={50} cursor={"pointer"}/>
                 </a>
 
 
                 <a href="https://github.com/CSULBAIResearch" target="_blank" rel="noopener noreferrer">
-                    <FaGithub color="#fff" fontSize={40} cursor={"pointer"}/>
+                    <FaGithub color="#fff" fontSize={50} cursor={"pointer"}/>
                 </a>
                 
                 <a href="https://www.youtube.com/@AI-Researchcsulb" target="_blank" rel="noopener noreferrer">
-                    <FaYoutubeSquare color="#fff" fontSize={40} cursor={"pointer"}/>
+                    <FaYoutubeSquare color="#fff" fontSize={50} cursor={"pointer"}/>
                 </a>
                 
                 <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedinIn color="#fff" fontSize={40} cursor={"pointer"}/>
+                    <FaLinkedinIn color="#fff" fontSize={50} cursor={"pointer"}/>
                 </a>
                
             </div>

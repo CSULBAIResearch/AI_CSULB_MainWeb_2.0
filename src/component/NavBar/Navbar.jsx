@@ -21,9 +21,9 @@ const Navbar = () => {
 
             
             <ul className="club__navbar-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#mission">Mission</a></li>
-                <li><a href="#officer">Officer</a></li>
+                <li><a href="#members">Officer</a></li>
                 <li><a href="#advisor">Advisor</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     <div className="club__navbar-smallscreen_overlay flex__center slide-bot">
                         <BiMenuAltRight color ="fff" fontSize={30} className="overlay__close" onClick={() => setToggleMenu(false)}></BiMenuAltRight>
                         <ul className="club__navbar-links">
-                            <li><a href="#home">Home</a></li>
+                            <li><a href="#hero">Home</a></li>
                             <li><a href="#mission">Mission</a></li>
                             <li><a href="#officer">Officer</a></li>
                             <li><a href="#advisor">Advisor</a></li>

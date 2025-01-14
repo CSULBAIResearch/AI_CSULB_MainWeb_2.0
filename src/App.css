@@ -9,9 +9,58 @@
 
 .flex__center {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.section-title{
+  font-size: 5.5rem;
+  font-weight: 300;
+  color: #dcdcdc;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+.section-title span{
+  color:  #28a08c;
+  font-weight: 400;
+}
+
+.cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #28a08c;
+  background-color: transparent;
+  border: 2px solid #28a08c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+
+  /* hover properties */
+  transition: .3s ease background-color;
+  transition-property: background-color, color;
+}
+
+.cta:hover{
+  color: white;
+  background-color: #28a08c;
+}
+
+.brand h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.brand h1 span{
+  color: #28a08c;
+}
+
+
 
 .club__bg {
   /* background: url('./assets/bg.png'); */
@@ -80,7 +129,7 @@
 } */
 
 h1{
-  color: wheat;
+  font-size: 5rem;
 }
 
 a{
@@ -99,6 +148,10 @@ p{
   letter-spacing: .05rem;
 }
 
+.p__montserrat{
+  font-size: 2rem;
+}
+
 p span{
   color: #28a08c;
 }
@@ -107,9 +160,16 @@ p span{
   width: 95px;
 }
 
+.headtext__montserrat{
+  font-size: 7rem;
+  line-height: 100px;
+  color: transparent;
+}
+
+
 @media screen and (min-width: 2000px) {
   .custom__button,
-  .p__inter {
+  .p__montserrat {
     font-size: 37px;
     line-height: 67px;
   }
@@ -119,8 +179,9 @@ p span{
     line-height: 50px;
   }
 
-  .headtext__inter {
-    font-size: 150px;
+  .headtext__montserrat{
+    color:black;
+    font-size: 5rem;
     line-height: 100px;
   }
 
@@ -132,7 +193,7 @@ p span{
 
 @media screen and (max-width: 1150px) {
   
-  .headtext__inter {
+  .headtext__montserrat {
     line-height: 80px;
   }
 
@@ -166,7 +227,7 @@ p span{
     padding: 4rem 2rem;
   }
   
-  .p__inter {
+  .p__montserrat {
     font-size: 21px;
   }
 
@@ -180,13 +241,13 @@ p span{
     font-size: 12px;
   }
 
-  .p__inter {
+  .p__montserrat{
     font-size: 19px;
   }
 
-  .headtext__inter{
-    font-size: 20px;
-    line-height: 30px;
+  .headtext__montserrat{
+    font-size: 2.5rem;
+    line-height: 40px;
   }
 
   .p__fira-headline{

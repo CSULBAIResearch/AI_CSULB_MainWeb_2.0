@@ -31,7 +31,7 @@
   #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 3.5rem;
+    /* font-size: 5rem; */
     position: relative;
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
@@ -39,7 +39,7 @@
   }
   
   #hero .school-name {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: 300;
   }
   
@@ -68,15 +68,15 @@
   }
   
   #hero h1:nth-child(1) span {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
   }
   
   #hero h1:nth-child(2) span {
-    animation-delay: 0.5s;
+    animation-delay: 0.2s;
   }
   
   #hero h1:nth-child(3) span {
-    animation-delay: 2.5s;
+    animation-delay: 2s;
   }
   
   /* Keyframes */
@@ -106,4 +106,6 @@
       color: white;
     }
   }
+
+
   

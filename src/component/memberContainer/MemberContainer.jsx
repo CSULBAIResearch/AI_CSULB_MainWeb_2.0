@@ -5,7 +5,6 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { CiMail } from "react-icons/ci";
 
-import {images} from '../../constant';
 
 const MemberContainer = ({memberName, memberPosition, memberImg,githubLink,emailLink,linkedinLink, specialStyle }) => (
     <div class="member-slide-content">

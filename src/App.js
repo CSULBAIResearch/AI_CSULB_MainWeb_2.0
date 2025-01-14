@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-  AdvisorPage,
   ContactPage,
   HomePage,
   OfficerPage,
@@ -22,13 +21,6 @@ const App = () => {
     <OfficerPage/>
 
     <ContactPage/>
-
-    
-    {/* <AdvisorPage/>
-    <ContactPage/>
-    <HomePage/>
-    <OfficerPage/>
-    <MissionPage/> */}
 
     <Footer/>
   </div>)

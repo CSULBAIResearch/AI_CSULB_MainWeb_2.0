@@ -37,7 +37,7 @@ const ContactPage = () => {
                   </div>
                   <div className="contact-info linktree">
                       <h1>Linktree</h1>
-                      <a href="https://linktr.ee/csulbAIResearch" target="_blank"><h2>CLICK HERE!</h2></a>
+                      <a href="https://linktr.ee/csulbAIResearch" target="_blank" rel="noreferrer"><h2>CLICK HERE!</h2></a>
                   </div>
               </div>
           </div>
